@@ -1,4 +1,4 @@
-package com.scala.basics
+package division1
 
 /*
   *
@@ -7,7 +7,6 @@ package com.scala.basics
   *
   * val <Name of our variable> : <Scala type> = <Some literal>
   * so even if the scala type is not defined , scala is smart enough to guess the data type.
-
  */
 
 object TypeInference_04 extends App{

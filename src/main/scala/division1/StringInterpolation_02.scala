@@ -1,4 +1,4 @@
-package com.scala.basics
+package division1
 
 /*
   *
@@ -8,7 +8,7 @@ package com.scala.basics
   *
   * Expressions can also be evaluated using {}
   *
-  * Using String Interplation for formatiing text :: in some cases, you may want to format your strings by say pre-pending some white spaces in front of the text.
+  * Using String Interpolation for formatting text :: in some cases, you may want to format your strings by say pre-pending some white spaces in front of the text.
    * This can be achieved using the f interpolation
    * f Interpolation can be used to format numbers.
    *

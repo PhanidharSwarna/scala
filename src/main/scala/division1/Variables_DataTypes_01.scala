@@ -1,27 +1,26 @@
-package com.scala.basics
+package division1
 
 //About Variables
 /*
   *Variables are nothing but logical containers which hold data, and this data can be referenced by the defined variable name.
   *There are 2 types of variables in scala
   *
-  * 1) Mutable Variables-can be changed post definition--defined with the key word var
+  * 1) Mutable Variables:-can be changed post definition--defined with the key word var
   *   Syntax: var <Name of our variable> : <Data type> = <Some literal>
   *   example: var authorName : String = "PhanidharSwarna"
   *
-  * 2)Immutable Variables-cannot be changed once defined--defined with the key word val
+  * 2)Immutable Variables:-cannot be changed once defined--defined with the key word val
   *   Syntax: val <Name of our variable> : <Data type> = <Some literal>
   *   example: val nameOfTheAUthor : String = "Dennis Ritche"
-
  */
 
 //Lazy Initialization(delay the initialization)
 /*
-  * A simple difference between a variable and a lazy variable is that, a general variable gets assigned with the physical memory when it is defined
-  * but a lazy variable gets its physical memory only if it has been referenced somewhere in the application.
+  * A simple difference between a variable and a lazy variable is that, a general variable gets assigned
+  * with the physical memory when it is defined but a lazy variable gets its physical memory only if it
+  * has been referenced somewhere in the application.
   *
   * keyword lazy needs to be used to make a variable lazy.
-
  */
 
 //Data Types
@@ -38,13 +37,13 @@ package com.scala.basics
   * Boolean (true, false)
   * String (any thing represented under double quotes)
   * Unit (represents nothing)
-
  */
 
 //Declaring a variable with no Initial value.
 /*
   *
-  * As a fundamental rule that we know, any variable should be assigned with some initail value, what if we were not sure that what value
+  * As a fundamental rule that we know, any variable should be assigned with some initail value(literal),
+  * what if we were not sure that what value
   * to be initialized first while defining , luckily we do had a solution
   * Use wild card character while defining a variable with no intial value
   * example:
@@ -65,7 +64,7 @@ object Variables_DataTypes_01 {
     val nameOfTheAuthor: String = "Swarna"
     println("Author name post first declaration of immutable variable is " +nameOfTheAuthor)
     //nameOfTheAuthor = "Phanidhar"
-    //The above statement is invalid and the IDE marks an error as "Re Assignment to val, in order to check the same, uncomment the above line"
+    //The above statement is invalid and the IDE marks an error as "Re Assignment to val, in order to check the same,uncomment the above line"
 
     //lazy variable
     lazy val age: Int = 25
@@ -75,7 +74,7 @@ object Variables_DataTypes_01 {
     val longExample: Long = 100000000L
     val intExample: Int = 4
     val shortExample: Short = 1
-    val byteExample: Byte = 0xa
+    //val byteExample: Byte = 0xa
     val charExample: Char = 'S'
     val booleanExample: Boolean = 5>2
     val stringExample: String = "Your are awesome"

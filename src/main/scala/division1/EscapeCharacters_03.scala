@@ -1,9 +1,9 @@
-package com.scala.basics
+package division1
 
 /*
   *
-  * AS a basic understanding we know that characters can be escaped using back slash, but what about
-  * if it has to be used multiple times, for example consider a json
+  * AS a basic understanding we know that characters can be escaped using back slash,
+  * but what if it has to be used multiple times, for example consider a json file
  */
 
 object EscapeCharacters_03 extends App {
@@ -21,8 +21,8 @@ object EscapeCharacters_03 extends App {
 
   //Creating multi-line text using stripMargin
 
-  // What if you would like to indent your text so that it's more readable? Look no further,
-  // Scala is here to help with the use of stripMargin:
+  // What if you would like to indent your text so that it's more readable?
+  // Look no further,Scala is here to help with the use of stripMargin:
 
   val donutJson4: String =
     """
